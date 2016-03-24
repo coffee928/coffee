@@ -24,7 +24,7 @@ public class TestThread {
 		t.start();
 			
 		Object ooo;
-		
+		//fsafafaf
 		
 		ReentrantReadWriteLock rrw;//实现原理
 		
