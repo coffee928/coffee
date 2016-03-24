@@ -32,6 +32,7 @@ public class SimpleBlockQueue {
 	}
 	
 	public void put(Object obj) throws InterruptedException {
+		System.out.println("fjsa;dlfjasdf");
 		synchronized (notEmpty) {
 			if(linkedList.size() == 0) {
 				notEmpty.notifyAll();
