@@ -41,6 +41,7 @@ public class SimpleBlockQueue {
 				notFull.wait();
 			}
 			linkedList.add(obj);
+			//kjfsadlfjasflkj
 		}
 	}
 }
