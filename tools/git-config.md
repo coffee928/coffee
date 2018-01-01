@@ -18,7 +18,7 @@ git config --global alias.unstage 'reset HEAD'
 [alias]
     ad = add
     co = checkout
-    ss = status
+    st = status
     cm = commit -m
     br = branch
     bm = branch -m
