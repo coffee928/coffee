@@ -56,9 +56,9 @@ git reset HEAD file                 把暂存区的修改撤销掉（unstage）�
 
 ```
 git stash list
-git stash pop stash@{num}            num 是你要恢复的操作的序号
-git stash pop                        相当于是stash@{0}
-git stash clear                      删除所有stash
+git stash pop stash@{num}           num 是你要恢复的操作的序号
+git stash pop                       相当于是stash@{0}
+git stash clear                     删除所有stash
 ```
 
 
