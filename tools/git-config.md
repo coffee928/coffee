@@ -61,5 +61,8 @@ git stash pop stash@{num}           num 是你要恢复的操作的序号
 git stash pop                       相当于是stash@{0}
 git stash clear                     删除所有stash
 ```
+```
+git log --author=sheng.zs
 
+```
 
