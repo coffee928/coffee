@@ -13,7 +13,14 @@ brew info               显示软件信息
 brew deps               显示包依赖
 ```
 
+
+* brew 安装目录 /usr/local/Cellar
+* brew 配置目录 /usr/local/etc
+* brew 命令目录 /usr/local/bin
+* brew在安装完成后自动在/usr/local/bin加个软连接，所以平常都是用这个路径
+
 ### 加速
+
 
 ## sublime
 
@@ -28,11 +35,19 @@ brew deps               显示包依赖
 * cmd + Shift + up 向上选择行，并支持同时编辑多行
 * cmd + Shift + down 向下选择行，并支持同时编辑多行
 * cmd + l 选择光标所在行
+* cmd + p
+	- 输入当前项目中的文件名，快速搜索文件
+	- 输入@和关键字，查找文件中函数名
+	- 输入：和数字，跳转到文件中该行代码
+	- 输入#和关键字，查找变量名
 
 * 列模式编辑
 	选中几行
 	cmd + shift + l
 	光标选择
+
+* markdown
+
 
 ### 命令行打开文件
 
