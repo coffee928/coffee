@@ -20,12 +20,22 @@ brew deps               显示包依赖
 ### 快捷键
 
 * cmd + shift + d        复制并粘贴当前选中内容
+* cmd + g 跳转到相应的行
+* cmd + m 在括号起始位置和终止位置之间切换
+* cmd + Shift + m 选中括号内内容
+* cmd + Shift + k 删除光标所在行
+* cmd + x 当光标选中区间时剪切选中区间，否则剪切光标所在行
+* cmd + Shift + up 向上选择行，并支持同时编辑多行
+* cmd + Shift + down 向下选择行，并支持同时编辑多行
+* cmd + l 选择光标所在行
 
-* cmd + l  	 选中当前行
-
-
+* 列模式编辑
+	选中几行
+	cmd + shift + l
+	光标选择
 
 ### 命令行打开文件
+
 
 1. vim ~/.bash_profile
 
@@ -44,6 +54,7 @@ brew deps               显示包依赖
 ### 配置
 
 * [常用 Git 命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+
 
 
 ### markdown安装
