@@ -64,5 +64,28 @@ git stash clear                     删除所有stash
 ```
 git log --author=sheng.zs
 
+git reflog                          查看所有日志
+
 ```
+
+
+### 本地版本回退退
+```
+git reset --hard Obfafd             本地版本回退
+```
+
+
+### 远程版本回退
+```
+1. 回退本地分支
+    git reflog
+    git reset --hard Obfafd
+
+2. 强制推送到远程分支
+    git push -f
+
+```
+
+
+
 
