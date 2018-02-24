@@ -6,11 +6,17 @@
 ## 配置别名
 
 ```
+全局配置：
 git config --global alias.st status
 git config --global alias.co checkout
 git config --global alias.ci commit
 git config --global alias.br branch
 git config --global alias.unstage 'reset HEAD'
+
+配置某一个项目：
+git config user.name 'coffee928'
+git config user.email 'zhangsheng928@gmail.com'
+
 ```
 
 
